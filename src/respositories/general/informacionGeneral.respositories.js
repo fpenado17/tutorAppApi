@@ -3,7 +3,7 @@ import { BaseRepository } from "../baseRepository.js";
 
 class InformacionGeneralRepository extends BaseRepository {
   constructor() {
-    super(informacionGeneralModel);
+    super(informacionGeneralModel, "busqueda");
   }
 }
 

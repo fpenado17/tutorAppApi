@@ -15,6 +15,9 @@ const informacionGeneral = new Schema(
     tipo: {
       type: String,
     },
+    busqueda: {
+      type: Number,
+    },
   },
   {
     versionKey: false,
