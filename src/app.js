@@ -7,6 +7,7 @@ import envs from "./config/envs.js";
 import logger from "./common/utils/logger.js";
 import { connectMongo } from "./config/database.js";
 import { publicRouter } from "./routes/index.routes.js";
+import "./events/index.js"
 
 const app = express();
 

@@ -3,7 +3,7 @@ import { BaseRepository } from "../baseRepository.js";
 
 class ProcesosRepository extends BaseRepository {
   constructor() {
-    super(procesosModel);
+    super(procesosModel, "busqueda");
   }
 }
 
