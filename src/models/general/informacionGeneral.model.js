@@ -18,6 +18,12 @@ const informacionGeneral = new Schema(
     busqueda: {
       type: Number,
     },
+    url: {
+      type: String,
+    },
+    numero: {
+      type: String,
+    },
   },
   {
     versionKey: false,
