@@ -18,6 +18,7 @@ const pasosSchema = new Schema(
     codigo_ubicacion: { type: String },
     costo: { type: String },
     url: { type: String },
+    imagen: { type: [String], default: [] },
   },
 );
 
